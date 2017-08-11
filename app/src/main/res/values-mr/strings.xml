@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="not_getting_location">Not getting your location.</string>
+    <string name="message_getlocation">Please Enter ok Button.</string>
+    <string name="enter_vehicleno">Please Enter Vehicle No.</string>
+    <string name="valid_km">Please Enter Valid Km No.</string>
+    <string name="valid_driverno">Please Enter Valid Driver No.</string>
+    <string name="valid_drivername">Please Enter Driver Name.</string>
+    <string name="valid_image">Please Upload Image.</string>
+    <string name="complte_journey">Complete your journey</string>
+    <string name="punchout">Your punch out of</string>
+    <string name="language">Select Language</string>
+    <string name="language_install">Install Truxapp Pilot App into your \n own Languages</string>
+    <string name="punchout_pending">is pending. Please click on logout button for punch out.</string>
+    <string name="warning">WARNING</string>
+    <string name="lastclosing_km">Last Closing KM:</string>
+    <string name="driver_mobno">Driver Mobile No</string>
+    <string name="driver_photo">Driver Photo</string>
+    <string name="upload">UPLOAD</string>
+    <string name="current_inputkm">Current Input KM</string>
+    <string name="button_startjourney"> START \n JOURNEY </string>
+    <string name="button_scan"> SCAN \n POCKET/ \n BOX </string>
+    <string name="button_resume"> RESUME \n JOURNEY </string>
+    <string name="error_difference">\nPlease Enter Valid KM.</string>
+    <string name="button_attendance">  Attendance   \n Report </string>
+    <string name="button_trip">  Trip  \n  Report </string>
+    <string name="pilot_login">Pilot Login</string>
+    <string name="vehcle_no">Vehicle No.</string>
+    <string name="button_delivery"> START \n DELIVERY </string>
+    <string name="button_stopjrny"> STOP \n JOURNEY </string>
+    <string name="driver_name">Driver Name</string>
+    <string name="choose_lang">Choose Your Preferred</string>
+    <string name="choose_lang1">Languages</string>
+    <string name="warning1">Fine of Rs. 1000 if you watch online videos \n on this phone. We track all activities on this phone.</string>
+    <string name="driver_details">* Driver does not exit in the system. Please provide following details.</string>
+
+    <string name="no_pod_found">No POD Found</string>
+    <string name="no_sig_found">No Signature Found</string>
+
+
+    <string name="upload_doc">Upload Document</string>
+    <string name="signature_img">Signature Image</string>
+    <string name="drop_pod">Drop POD</string>
+
+    <string name="menu_available">Available Order</string>
+
+
+
+    <string name="accept_button">Accept</string>
+    <string name="source">Source</string>
+    <string name="destination_new">Destination</string>
+    <string name="ti_name">TI Name</string>
+    <string name="ti_no">TI Number</string>
+    <string name="order_date">Order Date</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_addrs">Branch Address:</string>
+
+
+
+
+    <!-- Strings related to login -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="app_name">Trux Pilot</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="confimation_">पुष्टीकरण!</string>
+    <string name="uploading_failed">अपलोड करणे अयशस्वी झाले</string>
+    <string name="image_uploading_failed">फोटो अपलोड करणे अयशस्वी</string>
+    <string name="image_uploaded">फोटो अपलोड</string>
+    <string name="enter_number_of_boxes">बॉक्स नंबर प्रविष्ट करा.</string>
+    <string name="awb_no">AWB क्रमांक:</string>
+
+    <string name="error_internet">आपल्या इंटरनेट काम करत नाही, तिला चेक आता!</string>
+    <string name="error_service">आपल्या मोबाइल सर्व्हर बोलू शकत नाही.</string>
+    <string name="loading">कृपया प्रतीक्षा करा&#8230;</string>
+    <string name="login">आज उपस्थिती शोधा</string>
+    <string name="stop_journey">टूर समाप्त</string>
+    <string name="no_data">कोणताही डेटा उपलब्ध नाही.</string>
+    <string name="enable_internet">(वर) सुरु ठेवण्यासाठी इंटरनेटशी सुरू.</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+    <string name="ok">तसेच</string>
+    <string name="resume_delivery">डिलिव्हरी शेवटी, प्रवास सुरू</string>
+
+    <string name="close">बंद करा.</string>
+    <string name="submit">ओके</string>
+    <string name="cancel">किंवा रद्द.</string>
+    <string name="are_you_sure_you_want_to"></string>
+    <string name="enter_temperature">चालू तापमान प्रविष्ट करा</string>
+
+    <string name="delivery_status">माहिती डिलिव्हरी.</string>
+    <string name="please_provide_delivery_status">डिलिव्हरी काय झाले ते, निर्दिष्ट करणे आवश्यक आहे.</string>
+    <string name="scan_pocket">स्कॅन पॅकेट / बॉक्स</string>
+    <string name="input_start_km">सुरुवातीला किलोमीटर वाचन प्रविष्ट करा</string>
+    <string name="calling_permission">, ग्राहक सेवा कॉल परवानगी</string>
+    <string name="camera_permission">प्रोफाइल प्रतिमा कॅमेरा परवानगी.</string>
+    <string name="storage_permission"> प्रोफाइल, प्रतिमा संचयन करीता परवानगी.</string>
+    <string name="gps_permission">स्थान परवानगी, जीपीएस.</string>
+    <string name="grant_access">"प्रदान करणे आवश्यक आहे."</string>
+
+    <string name="error_timeOut">आपले नेटवर्क मंद आहे, कृपया नंतर पुन्हा प्रयत्न करा</string>
+    <string name="error_NoConnectionError">आपले इंटरनेट कनेक्शन तपासा करा</string>
+    <string name="error_AuthFailureError">ऑथेंटिकेशन कोड त्रुटी</string>
+    <string name="error_ServerError">सर्व्हर नाही उपलब्ध आहे, कृपया नंतर पुन्हा प्रयत्न करा</string>
+
+    <string name="menu_home">घर</string>
+    <string name="menu_reports">वर्णन</string>
+    <string name="menu_logout">बाहेर पडणे</string>
+    <string name="menu_language">भाषा बदला</string>
+    <string name="are_you_sure_you_want_to_change_language">आपण भाषा बदलण्यासाठी खात्री आहे?</string>
+
+    <string name="enter_awb_number">AWB नंबर प्रविष्ट करा.</string>
+    <string name="attendance_report">उपस्थिती तपशील</string>
+    <string name="trip_report">टूर तपशील</string>
+    <string name="select_month">महिन्यात निवडा <font color='#FC0000'>*</font></string>
+    <string name="select_date"> दिनांक निवडा <font color='#FC0000'>*</font></string>
+    <string name="select_trip"> ट्रिप निवडा <font color='#FC0000'>*</font></string>
+    <string name="total_present_day">महिन्यात एकूण उपस्थिती</string>
+    <string name="click_to_view"><u>पाहण्यासाठी क्लिक करा</u></string>
+    <string name="trip_id">"टूर कार्ड: "</string>
+    <string name="total_km_run">"एकूण किमी धाव: "</string>
+    <string name="start_time">"सुरवातीची वेळ: "</string>
+    <string name="end_time">"शेवटी वेळ: "</string>
+    <string name="drop_detail">माहिती पॅकेट</string>
+    <string name="document">दस्तऐवज</string>
+    <string name="trip_sheet">प्रवास पत्रक</string>
+    <string name="error_date">वैध तारीख निवडा</string>
+    <string name="change_select_trip_date">तारीख बदला</string>
+    <string name="destination">गंतव्य:</string>
+    <string name="no_of_box">बॉक्स क्रमांक:</string>
+    <string name="your_selected_item"><font color='#FC0000'>आपले निवडलेले दस्तऐवज</font></string>
+    <string name="select_document"><font color='#FC0000'>दस्तऐवज निवडा</font></string>
+    <string name="no_document_found">दस्तऐवज आढळले नाहीत</string>
+    <string name="no_detail_found">कोणताही तपशील.</string>
+
+    <string-array name="languages">
+        <item>Marathi (मराठी)</item>
+        <item>Arabic (‎العربية‎)</item>
+        <item>English</item>
+        <item>Hindi (हिंदी)</item>
+        <item>Tamil (தமிழ்)</item>
+        <item>Telugu (తెలుగు)</item>
+    </string-array>
+    <string-array name="ndr_responce_new">
+        <item>Select Option</item>
+        <item>Delivery Successful</item>
+        <item>A00 - Attempted Delivery - Partner</item>
+        <item>A01 - Residential - No one home/re-schedule</item>
+        <item>A02 - Business - Office closed/re-schedule</item>
+        <item>A03 - Business - Cnee not available/re-schedule</item>
+        <item>A04 - Incorrect address - Cnee moved/re-schedule</item>
+        <item>A05 - Incorrect address - Incomplete/re-schedule</item>
+        <item>A06 - No access/re-schedule</item>
+        <item>A07 - Delivery time restricted/re-schedule</item>
+        <item>A08 - Monies due not ready/re-schedule</item>
+        <item>A09 - Unable to unload/re-schedule</item>
+        <item>A10 - Driver out of time/re-schedule</item>
+        <item>A11 - Incorrect sorting/re-schedule</item>
+        <item>A12 - Non controllable delay/re-schedule</item>
+        <item>A13 - Residential - No one home/unable to contact</item>
+        <item>A14 - Business - Office closed/unable to contact</item>
+        <item>A15 - Incorrect address - Cnee moved/no fwding address</item>
+        <item>A16 - Incorrect address - Address not found</item>
+        <item>A17 - Refused - Due Damage</item>
+        <item>A18 - Refused - Due Monies </item>
+        <item>A19 - Refused - Due Other</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

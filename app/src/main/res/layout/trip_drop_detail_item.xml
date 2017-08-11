@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_light_black"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xsmall">
+
+        <TextView
+            android:id="@+id/textDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:padding="@dimen/micro"
+            android:text="@string/destination"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_xsmall" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xsmall">
+
+        <TextView
+            android:id="@+id/textSTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:padding="@dimen/micro"
+            android:text="@string/start_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_xsmall" />
+
+
+        <TextView
+            android:id="@+id/textETime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:padding="@dimen/micro"
+            android:text="@string/end_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_xsmall" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xsmall"
+        android:layout_marginBottom="@dimen/xsmall">
+
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:padding="@dimen/micro"
+            android:text="@string/no_of_box"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_xsmall" />
+
+
+        <TextView
+            android:id="@+id/textAwbNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:padding="@dimen/micro"
+            android:text="@string/awb_no"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_xsmall" />
+    </RelativeLayout>
+
+</LinearLayout>

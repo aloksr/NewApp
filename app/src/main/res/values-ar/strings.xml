@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_getting_location">Not getting your location.</string>
+    <string name="message_getlocation">Please Enter ok Button.</string>
+    <string name="enter_vehicleno">Please Enter Vehicle No.</string>
+    <string name="valid_km">Please Enter Valid Km No.</string>
+    <string name="valid_driverno">Please Enter Valid Driver No.</string>
+    <string name="valid_drivername">Please Enter Driver Name.</string>
+    <string name="valid_image">Please Upload Image.</string>
+    <string name="complte_journey">Complete your journey</string>
+    <string name="punchout">Your punch out of</string>
+    <string name="language">Select Language</string>
+    <string name="language_install">Install Truxapp Pilot App into your \n own Languages</string>
+    <string name="punchout_pending">is pending. Please click on logout button for punch out.</string>
+    <string name="warning">WARNING</string>
+    <string name="lastclosing_km">Last Closing KM:</string>
+    <string name="driver_mobno">Driver Mobile No</string>
+    <string name="driver_photo">Driver Photo</string>
+    <string name="upload">UPLOAD</string>
+    <string name="current_inputkm">Current Input KM</string>
+    <string name="button_startjourney"> START \n JOURNEY </string>
+    <string name="button_scan"> SCAN \n POCKET/ \n BOX </string>
+    <string name="button_resume"> RESUME \n JOURNEY </string>
+    <string name="error_difference">\nPlease Enter Valid KM.</string>
+    <string name="button_attendance">  Attendance   \n Report </string>
+    <string name="button_trip">  Trip  \n  Report </string>
+    <string name="pilot_login">Pilot Login</string>
+    <string name="vehcle_no">Vehicle No.</string>
+    <string name="button_delivery"> START \n DELIVERY </string>
+    <string name="button_stopjrny"> STOP \n JOURNEY </string>
+    <string name="driver_name">Driver Name</string>
+    <string name="choose_lang">Choose Your Preferred</string>
+    <string name="choose_lang1">Languages</string>
+    <string name="warning1">Fine of Rs. 1000 if you watch online videos \n on this phone. We track all activities on this phone.</string>
+    <string name="driver_details">* Driver does not exit in the system. Please provide following details.</string>
+
+
+
+    <string name="no_pod_found">No POD Found</string>
+    <string name="no_sig_found">No Signature Found</string>
+
+
+    <string name="upload_doc">Upload Document</string>
+    <string name="signature_img">Signature Image</string>
+    <string name="drop_pod">Drop POD</string>
+    <string name="menu_available">Available Order</string>
+
+    <string name="accept_button">Accept</string>
+    <string name="source">Source</string>
+    <string name="destination_new">Destination</string>
+    <string name="ti_name">TI Name</string>
+    <string name="ti_no">TI Number</string>
+    <string name="order_date">Order Date</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_addrs">Branch Address:</string>
+
+
+
+
+
+
+
+    <!-- Strings related to login -->
+    <string name="app_name">Trux Pilot</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="error_internet">الرجاء التحقق من اتصال الإنترنت الخاص بك أو المحاولة مرة أخرى في وقت لاحق!</string>
+    <string name="error_service">تعذر الحصول على رد من الخادم.</string>
+    <string name="loading">&#8230; جار التحميل </string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="stop_journey">توقف رحلة</string>
+    <string name="no_data">لا تتوافر بيانات.</string>
+    <string name="enable_internet">تمكين الإنترنت للمتابعة.</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">حسنا</string>
+    <string name="resume_delivery">رحلة الذاتية</string>
+
+    <string name="close">قريب</string>
+    <string name="submit">عرض</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confimation_">تأكيد</string>
+    <string name="are_you_sure_you_want_to">هل أنت متأكد أنك تريد</string>
+    <string name="uploading_failed">فشل في تحميل</string>
+    <string name="image_uploading_failed">صورة تحميل تفشل</string>
+    <string name="image_uploaded">الصور التي يتم تحميلها</string>
+    <string name="enter_number_of_boxes">أدخل عدد من صناديق</string>
+    <string name="enter_temperature">أدخل درجة الحرارة الحالية</string>
+
+
+    <string name="delivery_status">معلومات التوصيل الرجاء</string>
+    <string name="please_provide_delivery_status">شروط التقسيم</string>
+    <string name="awb_no">عدد AWB:</string>
+    <string name="scan_pocket">جيب المسح الضوئي / صندوق</string>
+    <string name="input_start_km">بدء إدخال كيلومتر</string>
+    <string name="calling_permission">الدعوة إذن لخدمة العملاء</string>
+    <string name="camera_permission">إذن الكاميرا لصورة الملف الشخصي</string>
+    <string name="storage_permission">إذن لتخزين صورة الملف الشخصي</string>
+    <string name="gps_permission">إذن لتحديد المواقع للموقع</string>
+    <string name="grant_access">"تحتاج إلى منح حق الوصول إلى"</string>
+
+    <string name="error_timeOut">الشبكة بطيئة جدا يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="error_NoConnectionError">الرجاء التحقق من اتصال الإنترنت الخاص بك.</string>
+    <string name="error_AuthFailureError">توجد شفرة المصادقة</string>
+    <string name="error_ServerError">الخادم لا يستجيب يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="menu_reports">تقارير</string>
+    <string name="menu_logout">خروج</string>
+    <string name="menu_language">غير اللغة</string>
+    <string name="are_you_sure_you_want_to_change_language">هل أنت متأكد أنك تريد تغيير لغة؟</string>
+
+
+    <string name="enter_awb_number">أدخل عدد AWB</string>
+    <string name="attendance_report">تقرير الحضور</string>
+    <string name="trip_report">تقرير رحلة</string>
+    <string name="select_month">اختر الشهر <font color='#FC0000'>*</font></string>
+    <string name="select_date">حدد التاريخ <font color='#FC0000'>*</font></string>
+    <string name="select_trip">اختر رحلة <font color='#FC0000'>*</font></string>
+    <string name="total_present_day">الحضور الكلي في الشهر</string>
+    <string name="click_to_view"><u>اضغط للعرض</u></string>
+    <string name="trip_id">"عدد الرحلة: "</string>
+    <string name="total_km_run">"إجمالي الكيلومتر تشغيل: "</string>
+    <string name="start_time">"وقت البدء: "</string>
+    <string name="end_time">"وقت النهاية: "</string>
+    <string name="drop_detail">إسقاط التفاصيل</string>
+    <string name="document">وثيقة</string>
+    <string name="trip_sheet">ورقة رحلة</string>
+    <string name="error_date">حدد تاريخ صالح</string>
+    <string name="change_select_trip_date">تغيير التاريخ</string>
+    <string name="destination">المكان المقصود:</string>
+    <string name="no_of_box">عدد من صناديق:</string>
+    <string name="your_selected_item"><font color='#FC0000'>وثيقة مختارة الخاصة بك</font></string>
+    <string name="select_document"><font color='#FC0000'>حدد مستند</font></string>
+    <string name="no_document_found">لا وثيقة تم العثور عليها</string>
+    <string name="no_detail_found">لا توجد تفاصيل</string>
+
+
+    <string-array name="languages">
+        <item>Arabic (‎العربية‎)</item>
+        <item>English</item>
+        <item>Hindi (हिंदी)</item>
+        <item>Marathi (मराठी)</item>
+        <item>Telugu (తెలుగు)</item>
+        <item>Tamil (தமிழ்)</item>
+    </string-array>
+
+    <string-array name="ndr_responce_new">
+        <item>Select Option</item>
+        <item>Delivery Successful</item>
+        <item>A00 - Attempted Delivery - Partner</item>
+        <item>A01 - Residential - No one home/re-schedule</item>
+        <item>A02 - Business - Office closed/re-schedule</item>
+        <item>A03 - Business - Cnee not available/re-schedule</item>
+        <item>A04 - Incorrect address - Cnee moved/re-schedule</item>
+        <item>A05 - Incorrect address - Incomplete/re-schedule</item>
+        <item>A06 - No access/re-schedule</item>
+        <item>A07 - Delivery time restricted/re-schedule</item>
+        <item>A08 - Monies due not ready/re-schedule</item>
+        <item>A09 - Unable to unload/re-schedule</item>
+        <item>A10 - Driver out of time/re-schedule</item>
+        <item>A11 - Incorrect sorting/re-schedule</item>
+        <item>A12 - Non controllable delay/re-schedule</item>
+        <item>A13 - Residential - No one home/unable to contact</item>
+        <item>A14 - Business - Office closed/unable to contact</item>
+        <item>A15 - Incorrect address - Cnee moved/no fwding address</item>
+        <item>A16 - Incorrect address - Address not found</item>
+        <item>A17 - Refused - Due Damage</item>
+        <item>A18 - Refused - Due Monies </item>
+        <item>A19 - Refused - Due Other</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

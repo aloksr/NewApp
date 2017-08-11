@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <bitmap xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:src="@drawable/error_bg_blue"  -->
+<!--     android:tileMode="repeat" /> -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<solid android:color="#c43434"/>-->
+    <solid android:color="#000000"/>
+</shape>

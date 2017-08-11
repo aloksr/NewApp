@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.3'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        // set to true to turn off analysis progress reporting by lint
+        quiet true
+        // if true, stop the gradle build if errors are found
+
+        ignoreWarnings true
+    }
+        aaptOptions {
+        cruncherEnabled = false
+    }
+}

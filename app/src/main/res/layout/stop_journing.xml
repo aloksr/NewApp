@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/commontoolbar_foractivity">
+        <include
+            layout="@layout/error_view"/>
+
+    </include>
+    <Button
+        android:id="@+id/startdelvry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xxlarge"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:minHeight="200dp"
+        android:text="@string/button_delivery"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_btn_blue"/>
+    <Button
+        android:id="@+id/stopjrny_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xxlarge"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:minHeight="200dp"
+        android:text="@string/button_stopjrny"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_btn_red"/>
+</LinearLayout>

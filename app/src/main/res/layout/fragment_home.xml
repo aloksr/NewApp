@@ -1,0 +1,23 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/startjrny_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xxlarge"
+        android:minWidth="200dp"
+        android:gravity="center"
+        android:minHeight="200dp"
+        android:text="@string/button_startjourney"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_btn_green"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="closing_bg">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="red_button">#ed1f24</color>
+    <color name="transparent_light_black">#42000000</color>
+    <color name="colorPrimary">#FC0000</color>
+    <color name="colorPrimaryDark">#FC0000</color>
+    <color name="light_green">#66cf98</color>
+    <color name="light_red">#ff7274</color>
+    <color name="blue">#000080</color>
+
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#CB1F26</color>
+
+    <color name="gray_user_name">#666666</color>
+    <!--<color name="trip_detail_persion_name_color">#666666</color>-->
+
+    <!-- AlertDialogLibrary -->
+    <color name="border_color">#dddddd</color>
+</resources>

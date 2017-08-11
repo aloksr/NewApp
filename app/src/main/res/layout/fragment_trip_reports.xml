@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <include
+        layout="@layout/error_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/xsmall"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/micro"
+                android:text="@string/select_date"
+                android:textColor="#000000"
+                android:textSize="@dimen/font_large"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_width_medium"
+                android:layout_margin="@dimen/micro"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.app.truxapp.leasedriver.utility.wheel.WheelView
+                    android:id="@+id/day"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/micro"
+                    android:layout_weight="0.7" />
+
+                <com.app.truxapp.leasedriver.utility.wheel.WheelView
+                    android:id="@+id/month"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/micro"
+                    android:layout_weight="1.3"
+                    android:padding="@dimen/micro" />
+
+                <com.app.truxapp.leasedriver.utility.wheel.WheelView
+                    android:id="@+id/year"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/micro"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layouttrip"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/xsmall"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/micro"
+                android:text="@string/select_trip"
+                android:textColor="#000000"
+                android:textSize="@dimen/font_large"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_width_medium"
+                android:layout_margin="@dimen/micro"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.app.truxapp.leasedriver.utility.wheel.WheelView
+                    android:id="@+id/trip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/micro" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/normal"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/normal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="180dp"
+                android:layout_height="@dimen/button_height_small"
+                android:background="@drawable/curverdrectangular_red_button"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="@dimen/small"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutChangeDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/normal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <Button
+                    android:id="@+id/btnChangeDate"
+                    android:layout_width="180dp"
+                    android:layout_height="@dimen/button_height_small"
+                    android:background="@drawable/curverdrectangular_red_button"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/small"
+                    android:text="@string/change_select_trip_date"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mLayoutDetail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.3"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xsmall">
+
+                <TextView
+                    android:id="@+id/textTripId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/small"
+                    android:layout_marginRight="@dimen/small"
+                    android:background="@color/white"
+                    android:padding="@dimen/micro"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xsmall" />
+
+
+                <TextView
+                    android:id="@+id/textTotalKMRun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/small"
+                    android:layout_marginRight="@dimen/small"
+                    android:background="@color/white"
+                    android:padding="@dimen/micro"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xsmall" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xsmall">
+
+                <TextView
+                    android:id="@+id/textSTTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/small"
+                    android:layout_marginRight="@dimen/small"
+                    android:background="@color/white"
+                    android:padding="@dimen/micro"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xsmall" />
+
+
+                <TextView
+                    android:id="@+id/textETTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/small"
+                    android:layout_marginRight="@dimen/small"
+                    android:background="@color/white"
+                    android:padding="@dimen/micro"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_xsmall" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_marginBottom="@dimen/xsmall">
+
+                <!--<TextView
+                    android:id="@+id/textRoute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/small"
+                    android:background="@color/white"
+                    android:drawablePadding="@dimen/xsmall"
+                    android:drawableRight="@drawable/location_marker"
+                    android:padding="@dimen/micro"
+                    android:text="@string/route_map"
+                    android:textColor="@color/red_button"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="@dimen/button_width_xlarge"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textRoute"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/black" />-->
+            </RelativeLayout>
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="@dimen/xsmall">-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textDropDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="@dimen/small"
+                    android:background="@color/white"
+                    android:drawablePadding="@dimen/xsmall"
+                    android:padding="@dimen/micro"
+                    android:text="@string/drop_detail"
+                    android:textColor="@color/red_button"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textNoDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/small"
+                    android:background="@color/white"
+                    android:drawablePadding="@dimen/xsmall"
+                    android:padding="@dimen/micro"
+                    android:text="@string/no_detail_found"
+                    android:textColor="@color/red_button"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="bold"/>
+                <RelativeLayout
+                    android:id="@+id/layoutdoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/table_cell_bg_inside"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textdoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="@dimen/small"
+                        android:background="@color/white"
+                        android:padding="@dimen/micro"
+                        android:text="@string/document"
+                        android:textColor="@color/red_button"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textNoDocument"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/small"
+                        android:background="@color/white"
+                        android:padding="@dimen/micro"
+                        android:text="@string/no_document_found"
+                        android:textColor="@color/red_button"
+                        android:textSize="@dimen/font_small"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textdoc"
+                        android:layout_marginLeft="@dimen/small"
+                        android:background="@color/white"
+                        android:padding="@dimen/micro"
+                        android:text="@string/trip_sheet"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_xsmall"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/textNoDocument"
+                        android:layout_margin="@dimen/small"
+                        android:background="@color/white"
+                        android:padding="@dimen/micro"
+                        android:text="@string/click_to_view"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/font_xsmall"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+                <ListView
+                    android:id="@+id/mListView"
+                    android:layout_below="@+id/textDropDetail"
+                    android:layout_above="@+id/layoutdoc"
+                    android:layout_margin="@dimen/small"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:dividerHeight="2dp"
+                    android:background="@android:color/transparent">
+                </ListView>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

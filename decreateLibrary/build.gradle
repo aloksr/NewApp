@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:26.0.0-alpha1"
+    compile "com.android.support:recyclerview-v7:26.0.0-alpha1"
+}
+//
+//publish {
+//    artifactId = 'discrete-scrollview'
+//    userOrg = rootProject.userOrg
+//    groupId = rootProject.groupId
+//    uploadName = rootProject.uploadName
+//    publishVersion = rootProject.publishVersion
+//    description = rootProject.description
+//    licences = rootProject.licences
+//}

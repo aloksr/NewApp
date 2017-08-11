@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../alertDialogLibrary/alertDialogLibrary.iml" filepath="$PROJECT_DIR$/../alertDialogLibrary/alertDialogLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imgeCrop/imgeCrop.iml" filepath="$PROJECT_DIR$/../imgeCrop/imgeCrop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trux-field.iml" filepath="$PROJECT_DIR$/../trux-field.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../truxField/truxField.iml" filepath="$PROJECT_DIR$/../truxField/truxField.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volleyLibrary.iml" filepath="$PROJECT_DIR$/volleyLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wheelLib/wheelLib.iml" filepath="$PROJECT_DIR$/../wheelLib/wheelLib.iml" />
+    </modules>
+  </component>
+</project>

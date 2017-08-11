@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aws-android-sdk-s3-2.2.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../truxField/libs/aws-android-sdk-s3-2.2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

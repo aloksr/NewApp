@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="multiselectspinner-1.0.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../truxField/build/intermediates/exploded-aar/io.apptik.widget/multiselectspinner/1.0.11/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../truxField/build/intermediates/exploded-aar/io.apptik.widget/multiselectspinner/1.0.11/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.apptik.widget/multiselectspinner/1.0.11/3ca9920ea0e09d392fa4d7b43efc0b031705ffdc/multiselectspinner-1.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
